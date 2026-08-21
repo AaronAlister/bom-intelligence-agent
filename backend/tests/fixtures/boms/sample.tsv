@@ -1,0 +1,5 @@
+Mfr P/N	Mfg	Description	Category	Package	Qty	RefDes
+LM358DR	Texas Instruments	Dual operational amplifier	Analog IC	SOIC-8	4	U1,U2,U3,U4
+STM32F401C8T6	STMicroelectronics	ARM Cortex-M4 microcontroller	MCU	LQFP-48	1	U5
+GRM188R71C104KA01D	Murata	100nF ceramic capacitor	Capacitor	0603	12	C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12
+RC0603FR-0710KL	Yageo	10k ohm resistor	Resistor	0603	8	R1,R2,R3,R4,R5,R6,R7,R8

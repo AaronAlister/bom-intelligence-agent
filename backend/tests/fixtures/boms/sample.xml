@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BOM product="Power Control Board" revision="Rev-A">
+  <Component>
+    <Mfr_P_N>LM358DR</Mfr_P_N>
+    <Mfg>Texas Instruments</Mfg>
+    <Description>Dual operational amplifier</Description>
+    <Category>Analog IC</Category>
+    <Package>SOIC-8</Package>
+    <Qty>4</Qty>
+    <RefDes>U1,U2,U3,U4</RefDes>
+  </Component>
+  <Component>
+    <Mfr_P_N>STM32F401C8T6</Mfr_P_N>
+    <Mfg>STMicroelectronics</Mfg>
+    <Description>ARM Cortex-M4 microcontroller</Description>
+    <Category>MCU</Category>
+    <Package>LQFP-48</Package>
+    <Qty>1</Qty>
+    <RefDes>U5</RefDes>
+  </Component>
+  <Component>
+    <Mfr_P_N>GRM188R71C104KA01D</Mfr_P_N>
+    <Mfg>Murata</Mfg>
+    <Description>100nF ceramic capacitor</Description>
+    <Category>Capacitor</Category>
+    <Package>0603</Package>
+    <Qty>12</Qty>
+    <RefDes>C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12</RefDes>
+  </Component>
+  <Component>
+    <Mfr_P_N>RC0603FR-0710KL</Mfr_P_N>
+    <Mfg>Yageo</Mfg>
+    <Description>10k ohm resistor</Description>
+    <Category>Resistor</Category>
+    <Package>0603</Package>
+    <Qty>8</Qty>
+    <RefDes>R1,R2,R3,R4,R5,R6,R7,R8</RefDes>
+  </Component>
+</BOM>

@@ -1,0 +1,44 @@
+{
+  "bom": {
+    "product": "Power Control Board",
+    "revision": "Rev-A"
+  },
+  "components": [
+    {
+      "Mfr P/N": "LM358DR",
+      "Mfg": "Texas Instruments",
+      "Description": "Dual operational amplifier",
+      "Category": "Analog IC",
+      "Package": "SOIC-8",
+      "Qty": 4,
+      "RefDes": "U1,U2,U3,U4"
+    },
+    {
+      "Mfr P/N": "STM32F401C8T6",
+      "Mfg": "STMicroelectronics",
+      "Description": "ARM Cortex-M4 microcontroller",
+      "Category": "MCU",
+      "Package": "LQFP-48",
+      "Qty": 1,
+      "RefDes": "U5"
+    },
+    {
+      "Mfr P/N": "GRM188R71C104KA01D",
+      "Mfg": "Murata",
+      "Description": "100nF ceramic capacitor",
+      "Category": "Capacitor",
+      "Package": "0603",
+      "Qty": 12,
+      "RefDes": "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12"
+    },
+    {
+      "Mfr P/N": "RC0603FR-0710KL",
+      "Mfg": "Yageo",
+      "Description": "10k ohm resistor",
+      "Category": "Resistor",
+      "Package": "0603",
+      "Qty": 8,
+      "RefDes": "R1,R2,R3,R4,R5,R6,R7,R8"
+    }
+  ]
+}
