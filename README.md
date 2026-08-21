@@ -1,4 +1,3 @@
-````markdown
 # BOM Intelligence Agent
 
 An agentic engineering intelligence platform that transforms Bill of Materials (BOM) data into actionable insights for engineering and procurement teams.
@@ -32,45 +31,3 @@ Component Catalog
           Document / RAG
                 ↓
        Intelligence Report
-```
-````
-
-Tech Stack
-
-Backend: Python, FastAPI, SQLAlchemy, PostgreSQL, Alembic
-
-AI / Intelligence: OpenAI SDK, LangGraph, RAG, embeddings, vector search
-
-Infrastructure: Redis, Celery, Qdrant
-
-Frontend: React, TypeScript, Vite
-
-Testing: pytest, pytest-asyncio, Ruff, TypeScript
-
-Project Structure
-bom-intelligence-agent/
-├── backend/ # FastAPI backend and intelligence services
-├── frontend/ # React + TypeScript dashboard
-├── migrations/ # Database migrations
-├── infra/ # Infrastructure configuration
-├── scripts/ # Utility scripts
-├── worker/ # Background task workers
-├── pyproject.toml
-└── README.md
-Testing
-
-Run the backend test suite:
-
-python -m pytest backend/tests -q
-
-Current test suite:
-
-663 tests passing
-
-Build the frontend:
-
-cd frontend
-npm run build
-Status
-
-The core platform is feature-complete, including BOM ingestion, component intelligence, risk analysis, lifecycle intelligence, alternative matching, RAG/document processing, agentic orchestration, and reporting.
